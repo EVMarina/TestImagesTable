@@ -28,6 +28,8 @@ class ImageLoader {
                 
                 cahedImages.setObject(image, forKey: url.absoluteString as NSString)
                 completion(image)
+                
+                
             }
         }
     }
