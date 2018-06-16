@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8476CF3520D447A900C7E3CD /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476CF3420D447A900C7E3CD /* ImagesTableViewController.swift */; };
 		8476CF3720D460FF00C7E3CD /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476CF3620D460FF00C7E3CD /* ImageLoader.swift */; };
+		8476CF3920D510DE00C7E3CD /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476CF3820D510DE00C7E3CD /* ImageModel.swift */; };
 		8485E4DD20D2F0FE00C03659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485E4DC20D2F0FE00C03659 /* AppDelegate.swift */; };
 		8485E4DF20D2F0FE00C03659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485E4DE20D2F0FE00C03659 /* ViewController.swift */; };
 		8485E4E220D2F0FE00C03659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8485E4E020D2F0FE00C03659 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		8476CF3420D447A900C7E3CD /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
 		8476CF3620D460FF00C7E3CD /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		8476CF3820D510DE00C7E3CD /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		8485E4D920D2F0FE00C03659 /* TestImagesTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImagesTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485E4DC20D2F0FE00C03659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8485E4DE20D2F0FE00C03659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8485E4EE20D2F34100C03659 /* ImageTableViewCell.swift */,
 				8476CF3620D460FF00C7E3CD /* ImageLoader.swift */,
 				8476CF3420D447A900C7E3CD /* ImagesTableViewController.swift */,
+				8476CF3820D510DE00C7E3CD /* ImageModel.swift */,
 			);
 			path = TestImagesTable;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8485E4EF20D2F34100C03659 /* ImageTableViewCell.swift in Sources */,
+				8476CF3920D510DE00C7E3CD /* ImageModel.swift in Sources */,
 				8485E4DF20D2F0FE00C03659 /* ViewController.swift in Sources */,
 				8476CF3720D460FF00C7E3CD /* ImageLoader.swift in Sources */,
 				8485E4DD20D2F0FE00C03659 /* AppDelegate.swift in Sources */,
